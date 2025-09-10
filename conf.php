@@ -1,7 +1,7 @@
 <?php
 //Site configuration 
 $conf['site_name']="BBIT DevOps";
-$conf['adminemail']="info@bbit.edu";
+$conf['site_email']="info@bbit.edu";
 $conf['site_url']="http://localhost/dol";
 
 // Site language 
