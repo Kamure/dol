@@ -1,14 +1,14 @@
 <?php
-class layouts {
+class Layouts {
     public function heading($conf) {
-        echo "Welcome to BBIT DevOps!";
+        echo "<h1>Welcome to BankSecure</h1>";
     }
-    public function welcome($conf) {
-        echo "<p>This is a new Semester.</p>";
+
+    public function welcome() {
+        echo "<p>Your digital vault is ready. Manage your money with confidence.</p>";
     }
-    public function footer ($conf) {
-        echo "<footer>
-        Copyright &copy; ".date("Y")." {$conf['site_name']}.
-         Contact us at <a href='mailto:{$conf['site_email']}'>{$conf['site_email']}</a></footer>";
+
+    public function footer($conf) {
+        echo "<footer>BankSecure &copy; 2025</footer>";
     }
 }
